@@ -1,7 +1,7 @@
 const vscode = require('vscode');
 const clipboardy = require('clipboardy');
 function activate(context) { 
-	const f = vscode.commands.registerCommand('extension.emacsCtrlK.kill-line', function () {
+	const f = vscode.commands.registerCommand('extension.emacsKillLine.kill-line', function () {
  		const editor = vscode.window.activeTextEditor;
 		if(!editor) {
 			return;
