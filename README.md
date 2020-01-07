@@ -8,8 +8,6 @@ Cut the text from the point at the end of the line. If the position of the point
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 0.0.1
 
 Initial release
