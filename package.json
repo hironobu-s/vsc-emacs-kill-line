@@ -10,19 +10,19 @@
 	},
 	"engines": {
 		"vscode": "^1.41.0"
-	}, 
+	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.emacsCtrlK.kill-line"
+		"onCommand:extension.emacsKillLine.kill-line"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.emacsCtrlK.kill-line",
-				"title": "emacs-ctrl-k.kill-line"
+				"command": "extension.emacsKillLine.kill-line",
+				"title": "emacs-kill-line.kill-line"
 			}
 		]
 	},
