@@ -1,7 +1,7 @@
 const vscode = require('vscode');
 const clipboardy = require('clipboardy');
 function activate(context) { 
-	const f = vscode.commands.registerCommand('extension.emacsKillLine.kill-line', function () {
+	const disposal = vscode.commands.registerCommand('extension.emacsKillLine.kill-line', function () {
  		const editor = vscode.window.activeTextEditor;
 		if(!editor) {
 			return;
@@ -23,7 +23,7 @@ function activate(context) {
 		});
 
 	});
-	context.subscriptions.push(f);
+	context.subscriptions.push(disposal);
 }
 
 exports.activate = activate;
