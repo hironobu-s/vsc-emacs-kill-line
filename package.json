@@ -4,9 +4,13 @@
 	"description": "This extension emulates Emacs kill-line(Ctrl+k) with 'kill-whole-line' option",
 	"version": "0.0.1",
 	"publisher": "hiro",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hironobu-s/vsc-emacs-kill-line"
+	},
 	"engines": {
 		"vscode": "^1.41.0"
-	},
+	}, 
 	"categories": [
 		"Other"
 	],
