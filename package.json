@@ -2,7 +2,7 @@
 	"name": "emacs-kill-line",
 	"displayName": "Emacs kill-line",
 	"description": "This extension emulates Emacs kill-line(Ctrl+k) with 'kill-whole-line' option",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"publisher": "hiro",
 	"repository": {
 		"type": "git",
