@@ -1,5 +1,5 @@
 const vscode = require('vscode');
-const clipboardy = require('clipboardy');
+
 function activate(context) { 
 	const disposal = vscode.commands.registerCommand('extension.emacsKillLine.kill-line', function () {
  		const editor = vscode.window.activeTextEditor;
@@ -19,7 +19,7 @@ function activate(context) {
 		const txt = doc.getText(range);
 		editor.edit(function(b) {
 			b.delete(range);
-			clipboardy.write(txt);
+			vscode.env.clipboard.writeText(txt);
 		});
 
 	});
