@@ -2,6 +2,8 @@
 
 This extension emulates Emacs kill-line(Ctrl-k in default setting) with kill-whole-line option.
 
+https://marketplace.visualstudio.com/items?itemName=hiro.emacs-kill-line
+
 ## Features
 
 Cut the text from the point at the end of the line. If the position of the point at the beginning of the line cut the whole line including its newline 
