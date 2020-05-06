@@ -10,10 +10,12 @@ function activate(context) {
 		const a = editor.selection.active;
 		const doc = editor.document;
 		const line = doc.lineAt(a);
-
-		let range = line.rangeIncludingLineBreak
+		
+		let range;
 		if(a.character > 0) {
 			range = line.range.with(a);
+		} else {
+			range = line.rangeIncludingLineBreak
 		}
 
 		const txt = doc.getText(range);
