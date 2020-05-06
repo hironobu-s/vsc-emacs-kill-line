@@ -21,9 +21,9 @@ function activate(context) {
 		const txt = doc.getText(range);
 		editor.edit(function(b) {
 			b.delete(range);
-			vscode.env.clipboard.writeText(txt);
 		});
 
+		vscode.env.clipboard.writeText(txt);
 	});
 	context.subscriptions.push(disposal);
 }
