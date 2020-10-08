@@ -15,7 +15,7 @@ To assign it to a default keybinding, add the following to your ``keybinginds.js
     "key": "ctrl+k",
     "command": "extension.emacsKillLine.kill-line",
     "when": "editorTextFocus"
-},
+}
 ```
 
 ## Release Notes
